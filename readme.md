@@ -1,4 +1,4 @@
-Setting of progect:
+Setting of project:
 
 ```
 npm i
