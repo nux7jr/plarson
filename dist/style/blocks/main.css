@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  color: wheat;
+}
+
+.user-list {
+  min-width: 200px;
+  background-color: #E667AF;
+}
+
+.chat {
+  background-color: #992667;
+  flex-grow: 2;
+}
