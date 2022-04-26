@@ -12,9 +12,6 @@ function scssTask() {
 
 // JavaScript Task
 function jsTask() {
-  // return src("app/js/**/*.js", { sourcemaps: true }).pipe(
-  //   dest("dist/js", { sourcemaps: "." })
-  // );
   return src("app/js/*.js").pipe(concat("script.js")).pipe(dest("dist/js"));
 }
 
