@@ -1,12 +1,19 @@
 .main {
   display: flex;
   color: wheat;
+  height: calc(100vh - 153px);
 }
 .user-list {
   min-width: 200px;
+  max-height: 95vh;
   background-color: #E667AF;
+  overflow: scroll;
+  padding: 5px;
 }
 .chat {
   background-color: #992667;
   flex-grow: 2;
+  max-height: 95vh;
+  overflow: scroll;
+  padding: 5px;
 }

@@ -1,4 +1,10 @@
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   min-height: 100px;
   background-color: #CD0074;
+}
+.some-form {
+  padding: 10px 0 0 5px;
 }
